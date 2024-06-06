@@ -9,8 +9,8 @@
 <form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
   <fieldset>
     <legend>Reiseinformationen</legend>
-    <label for="departureAirport">Abflughafen:</label>
-    <select id="departureAirport" name="departureAirport" required>
+    <label for="departure-airport">Abflughafen:</label>
+    <select id="departure-airport" name="departureAirport" required>
       <optgroup label="Deutschland">
         <option value="Berlin Tegel">Berlin Tegel</option>
         <option value="Frankfurt am Main">Frankfurt am Main</option>
@@ -32,16 +32,16 @@
         <option value="Lyon">Lyon</option>
       </optgroup>
     </select><br>
-    <label for="startDate">Anfangsdatum des Reisezeitraums:</label>
-    <input type="date" id="startDate" name="startDate" required><br>
-    <label for="endDate">Enddatum des Reisezeitraums:</label>
-    <input type="date" id="endDate" name="endDate" required><br>
-    <label for="tripDuration">Dauer der Reise (in Tagen, zwischen 1 und 21):</label>
-    <input type="number" id="tripDuration" name="tripDuration" min="1" max="21" required><br>
-    <label for="numberOfTravelers">Anzahl der reisenden Personen:</label>
-    <input type="number" id="numberOfTravelers" name="numberOfTravelers" min="1" required><br>
-    <label for="preferredAirline">Bevorzugte Fluggesellschaft:</label>
-    <select id="preferredAirline" name="preferredAirline">
+    <label for="start-date">Anfangsdatum des Reisezeitraums:</label>
+    <input type="date" id="start-date" name="startDate" required><br>
+    <label for="end-date">Enddatum des Reisezeitraums:</label>
+    <input type="date" id="end-date" name="endDate" required><br>
+    <label for="trip-duration">Dauer der Reise (in Tagen, zwischen 1 und 21):</label>
+    <input type="number" id="trip-duration" name="tripDuration" min="1" max="21" required><br>
+    <label for="number-of-travelers">Anzahl der reisenden Personen:</label>
+    <input type="number" id="number-of-travelers" name="number-of-travelers" min="1" required><br>
+    <label for="preferred-airline">Bevorzugte Fluggesellschaft:</label>
+    <select id="preferred-airline" name="preferred-airline">
       <option value="Lufthansa">Lufthansa</option>
       <option value="Swiss International Air Lines">Swiss International Air Lines</option>
       <option value="Emirates">Emirates</option>
@@ -57,11 +57,11 @@
     <input type="radio" id="hostel" name="accommodationType" value="Hostel">
     <label for="hostel">Hostel</label><br>
     <label>Zusätzliche Dienstleistungen:</label><br>
-    <input type="checkbox" id="insurance" name="additionalService" value="Reiseversicherung">
+    <input type="checkbox" id="insurance" name="additional-service" value="Reiseversicherung">
     <label for="insurance">Reiseversicherung</label><br>
-    <input type="checkbox" id="transfer" name="additionalService" value="Flughafentransfer">
+    <input type="checkbox" id="transfer" name="additional-service" value="Flughafentransfer">
     <label for="transfer">Flughafentransfer</label><br>
-    <input type="checkbox" id="luggage" name="additionalService" value="Zusätzliches Gepäck">
+    <input type="checkbox" id="luggage" name="additional-service" value="Zusätzliches Gepäck">
     <label for="luggage">Zusätzliches Gepäck</label><br>
   </fieldset>
   <fieldset>
